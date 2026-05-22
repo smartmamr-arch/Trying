@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator & Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-icons/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Aaed Musa Clone</a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="hero-section">
+        <div class="container">
+            <div class="profile-grid">
+                <div class="profile-text">
+                    <h1>Mechanical Engineer & Creator</h1>
+                    <p>For as long as I can remember, I have had a burning passion for building robots and gadgets. I'm all about the fabrication process: going through design iterations, rapid prototyping, and fine-tuning details.</p>
+                    <p>This space provides project write-ups for each build with deeper dives into the technical aspects of hardware and software design.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank">YouTube</a>
+                        <a href="#" target="_blank">Patreon</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="profile-img-placeholder">
+                    <!-- Replace with an actual image link later -->
+                    <span>[ Profile Image ]</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- Projects Grid Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="card-img">[ CARA 2.0 Robot Dog ]</div>
+                    <div class="card-content">
+                        <h3>CARA 2.0 Quadruped</h3>
+                        <p>An upgraded, low-cost, low-weight quadrupedal robot utilizing capstan drives and custom quasi-direct drive actuators.</p>
+                        <a href="#" class="read-more">Read Technical Write-up &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="card-img">[ Infinite Spinning Top ]</div>
+                    <div class="card-content">
+                        <h3>Infinite Spinning Top</h3>
+                        <p>An overengineered, gyroscopically balancing top built to spin smoothly for hours using internal stabilization.</p>
+                        <a href="#" class="read-more">Read Technical Write-up &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="card-img">[ Wrist CD Launcher ]</div>
+                    <div class="card-content">
+                        <h3>Wrist Mounted CD Launcher</h3>
+                        <p>A wearable mechanical gadget designed to launch mini CDs at targets using custom rapid-prototyped springs.</p>
+                        <a href="#" class="read-more">Read Technical Write-up &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Engineering Portfolio. Built with clean web standards.</p>
+        <p>Contact: <a href="mailto:example@gmail.com">your-email@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
